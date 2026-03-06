@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main() {
+
+    char Nombre_del_estudiante[50];
+    char Carrera[50];
+    float Edad, Semestre;
+
+    printf("Ingrese el nombre del Estudiante: ");
+    scanf("%s", Nombre_del_estudiante);
+
+    printf("Edad del estudiante: ");
+    scanf("%f", &Edad);
+
+    printf("Carrera: ");
+    scanf("%s", Carrera);
+
+    printf("Semestre del estudiante: ");
+    scanf("%f", &Semestre);
+    printf("-------------------------");
+    printf("\nNombre Del Estudiante: %s\n ", Nombre_del_estudiante);
+    printf("-------------------------");
+    printf("\nEdad Del Estudiante: %.0f\n ", Edad);
+    printf("-------------------------");
+printf("\n Carrera Y Semestre Del Estudiante: %s %.0f\n", Carrera, Semestre);
+
+    return 0;
+}
